@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C0221;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: #7B5E7B;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+button#startBtn {
+    background-color: #7B5E7B;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#startBtn:hover {
+    background-color: #5D3B5D;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C0221;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 50px; /* Отступ между кнопками и нижним краем окна */
+}
+
+button {
+    background-color: #7B5E7B;
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px; /* Отступ между кнопками */
+}
+
+button:hover {
+    background-color: #5D3B5D;
+}
+
+.container {
+    text-align: center; /* Выравнивание содержимого по центру */
+}
+
+#winFightBtn {
+    background-color: #7B5E7B;
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50vh; /* Поднять кнопку на половину высоты окна */
+    transform: translateY(-50%); /* Сдвинуть кнопку на половину своей высоты назад */
+}
+
+#winFightBtn:hover {
+    background-color: #5D3B5D;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50vh; 
+    transform: translateY(-50%); 
+}
+
+.conclusion {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
